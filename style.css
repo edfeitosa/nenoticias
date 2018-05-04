@@ -1,0 +1,63 @@
+/*
+Theme Name: NE Notícias
+Theme URI: http://www.nenoticias.com.br
+Author: Design - Douglas Nunes // Programador - Eduardo Feitosa
+Author URI: http://www.nenoticias.com.br
+Description: Este tema foi criado e desenvolvido para novo sistema agregador de notícias do NE Notícias.
+Version: 1.0
+*/
+
+/* fontes */
+@import url('fonts/merriweather/merriweather.css'); 
+@import url('fonts/roboto/roboto.css'); 
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: 'merriweatherregular';
+    border-top: 5px solid #e34132;
+}
+
+.container {
+    position: relative;
+    width: 1170px;
+    margin: 0px auto;
+}
+
+/* logo */
+.logo {
+    float: left;
+    width: 80px;
+    height: 70px;
+    margin-top: 20px;
+}
+
+.logo img {
+    width: 100%;
+}
+
+/* menu superior */
+.menu {
+    float: right;
+    width: 800px;
+    height: 100px;
+    padding: 10px 0px;
+    border-bottom: 1px solid #ccc;
+}
+
+.menu a {
+    font-family: 'robotomedium';
+    text-transform: uppercase;
+    color: #393939;
+    float: right;
+    text-decoration: none;
+    margin-right: 30px;
+    padding: 39px 0px 49px 0px;
+}
+
+.menu ul li {
+    list-style: none;
+}
