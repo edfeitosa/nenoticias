@@ -18,12 +18,25 @@
 ); ?>
 
 <div class="container">
-    <!-- logo -->
-    <div class="logo">
-        <a href="<?php echo home_url('/'); ?>">
-            <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/logo-ne.jpg" alt="ne_noticias" title="NE Notícias" />
-        </a>
-    </div>
-    <!-- menu -->
-    <?php wp_nav_menu( $header_menu_args ); ?>
+	<div class="row border-bottom">
+		<!-- logo -->
+		<div class="col-ex-1">
+			<div class="logo">
+				<a href="<?php echo home_url('/'); ?>">
+					<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/logo-ne.jpg" alt="ne_noticias" title="NE Notícias" />
+				</a>
+			</div>
+		</div>
+		<!-- menu -->
+		<div class="col-ex-10">
+			<?php wp_nav_menu( $header_menu_args ); ?>
+		</div>
+		<!-- botão de busca -->
+		<div class="col-ex-1">
+			<div class="busca">
+				<img src="<?php echo get_stylesheet_directory_uri(); ?>/images/busca.jpg" alt="busca_ne_noticias" title="Busca" />
+			</div>
+		</div>
+		<div class="clear"></div>
+	</div>
 </div>
