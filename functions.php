@@ -13,6 +13,7 @@ function scripts_styles() {
     wp_enqueue_style('small', get_stylesheet_directory_uri().'/styles/small.css', array(), '1.1', 'all');
     wp_enqueue_style('medium', get_stylesheet_directory_uri().'/styles/medium.css', array(), '1.1', 'all');
     wp_enqueue_style('large', get_stylesheet_directory_uri().'/styles/large.css', array(), '1.1', 'all');
+	wp_enqueue_script('moment', get_stylesheet_directory_uri().'/scripts/moment.js', array('jquery'), '1.1', true);
 	wp_enqueue_script('script', get_stylesheet_directory_uri().'/scripts/scripts.js', array('jquery'), '1.1', true);
 }
 // Adicionando a ação a chama da função
