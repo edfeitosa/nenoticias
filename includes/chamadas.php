@@ -20,7 +20,9 @@
                 <div class="row">
                     <!-- título -->
                     <div class="col-ex-12 margin-bottom-20">
-                        <h1><?php echo the_title(); ?></h1>
+                        <h1>
+                            <a href="<?php the_permalink(); ?>"><?php echo the_title(); ?></a>
+                        </h1>
                     </div>
                     <!-- resumo da chamada -->
                     <div class="col-ex-6 margin-bottom-20">
