@@ -4,14 +4,11 @@
 <!-- menu -->
 <?php include ('includes/menu.php'); ?>
 
-<!-- teste tempo -->
-<script type="text/javascript">
-    jQuery(document).ready(function() {
-        exibirTempo("06/05/2018 16:16:00", ".exibeHora");
-    });
-</script>
+<!-- banner topo -->
+<?php include ('includes/bannerTopo.php'); ?>
 
-<div class="exibeHora"></div>
+<!-- chamadas da capa -->
+<?php include ('includes/chamadas.php'); ?>
 
 <!-- rodapé -->
 <?php get_footer(); ?>
